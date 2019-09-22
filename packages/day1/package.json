@@ -24,9 +24,12 @@
     "url": "git+https://github.com/Jazk-Z/jest.git"
   },
   "scripts": {
-    "test": "jest __tests__/*.js"
+    "test": "jest __tests__/*.test.js --watchAll"
   },
   "bugs": {
     "url": "https://github.com/Jazk-Z/jest/issues"
+  },
+  "dependencies": {
+    "jest": "^24.9.0"
   }
 }

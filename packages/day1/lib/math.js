@@ -7,8 +7,4 @@ function minus(a, b) {
 function multi(a, b) {
   return a * b;
 }
-module.exports = {
-  add,
-  minus,
-  multi
-};
+export { add, minus, multi };
