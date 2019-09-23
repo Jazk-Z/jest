@@ -6,7 +6,10 @@
   "scripts": {
     "test": "lerna run test",
     "init": "lerna init",
-    "create": "lerna create @jest/day1"
+    "create": "lerna create @jest/day2",
+    "add": "lerna add jest --scope=@jest/day2",
+    "bootstrap": "lerna bootstrap",
+    "coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,8 @@
   },
   "homepage": "https://github.com/Jazk-Z/jest#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
     "jest": "^24.9.0",
     "lerna": "^3.16.4"
   }

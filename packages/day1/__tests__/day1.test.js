@@ -1,6 +1,6 @@
 "use strict";
 
-import { add, minus, multi } from "../lib/math.js";
+import { add, minus, multi } from "../lib/math.js.js.js.js";
 import { ETIMEDOUT } from "constants";
 
 describe("@jest/day1", () => {
