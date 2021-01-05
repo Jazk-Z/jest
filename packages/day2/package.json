@@ -31,7 +31,7 @@
     "url": "https://github.com/Jazk-Z/jest/issues"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "jest": "^24.9.0",
     "jquery": "^3.4.1",
     "prettier": "^1.18.2"
